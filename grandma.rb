@@ -1,5 +1,6 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(greeting)
+  greeting=gets.chomp
   if greeting.upcase 
     puts "NO, NOT SINCE 1938!"
 end 
